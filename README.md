@@ -1,4 +1,4 @@
-# Java Test Task
+# Java AQA Test Task
 Implementation language: Java 11
 
 - [Tasks](#tasks)
@@ -75,3 +75,11 @@ The project includes JUnit 5 unit tests covering:
 - arrays without elements divisible by 3.
 
 ## Task 2
+Bracket sequence: `[((())()(())]]`
+- Can this sequence be considered correct?
+   - No, this sequence cannot be considered correct because it has unmatched brackets and parentheses:
+      - **Square bracket problems:** One opening bracket at the beginning and two closing brackets at the end.
+      - **Parentheses problems:** One opening parenthesis does not have a matching closing parenthesis.
+- If the answer to the previous question is “no”, then what needs to be changed to make it correct?
+   - One of the possible options: Add one opening square bracket `[` at the beginning and add one closing parenthesis `)` before the closing square brackets.
+  
